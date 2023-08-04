@@ -8,7 +8,6 @@ let shuffledQuestions, currentQuestionIndex;
 let quizScore = 0;
 
 startButton.addEventListener('click', startGanme)
-console.log("hi")
 
 nextButton.addEventListener('click', () =>{
     currentQuestionIndex++
